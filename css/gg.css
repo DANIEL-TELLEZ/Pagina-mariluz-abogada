@@ -1,0 +1,36 @@
+/* Mensage de facebook y watsapp_____________________________________________*/
+.chat_container{
+	margin:0;
+	width:auto;
+	max-width:300px;
+	position:fixed;
+	bottom:0px;
+	right:2%;
+	z-index:999;
+
+}
+.chat_boton{
+	width: 100%;		
+	cursor:pointer;
+	user-select: none;
+	padding:4px 0;
+}
+
+.iframe_mssfk{
+margin:0;
+padding:0;
+display: none;
+}
+h2{
+	color:#0B10B7;
+}
+
+#img_mss{
+width:40%;
+hyphens:;
+}
+
+.img_wsp{
+	width:40%;
+	hyphens: ;
+}

@@ -1,0 +1,375 @@
+body{
+padding-left: 1%;
+background:;
+
+}
+
+
+
+
+p{
+	color: #000;
+}
+/* encabesado_____________________________________________ header */
+#franja{
+	background-color:#000;
+	height: 5px;
+	margin-bottom: 1px;
+}
+
+header{
+	height:;
+	background-color: #fff;
+}
+
+#divtitulo{
+	background-color: #000;
+	height:;
+}
+#logo{
+	width: 100%;
+	height: 100px;
+
+}
+/*___________________________________________________________sinta de contactos*/
+.centrar-telefono{
+	text-align: center;
+	color: #000;
+	font-family: 'Nanum Myeongjo', serif;    
+    text-shadow: 4px 4px 4px #aaa;
+
+}
+#fotoTelefono{
+	height:20px;
+	width: 20px;
+	margin-top: 2%;
+}
+
+
+
+/*_______________________________________________redesociales*/
+
+.redesSociales{	
+	margin-top: 30%;
+	width: 30%;	
+	height:;
+
+}
+
+.contianerRedes{
+	margin-right:20%;
+	margin-left: 20%;
+	
+}
+/*________________________________________________________titulo*/
+
+#titulo{
+font-family: 'Nanum Myeongjo', serif;
+font-size: 48px;
+text-shadow: 4px 4px 4px #aaa;
+text-align: center;
+color: #B18904;
+}
+
+/*______________________________________________________________carrusel*/
+
+.row{
+	padding-left:none;
+}
+.imgCarrusel{
+	height: 300px;
+	width: 100%;
+	margin-top: 0px;
+}
+#flechabajo{
+	height: 70px;
+	width: 50px;
+	margin-top:1px;
+}
+#logro{
+	background-color: ;
+	height: 300px;	
+	color:#B7950B ;
+	text-align: justify;
+	font-family: 'Nanum Myeongjo', serif;
+	margin-top: 10%;
+	margin-right:3%;
+}
+
+#divlogro{
+	background-color: #000;
+	height: 300px;	
+}
+#abogada{
+	background-color:#000 ;
+	height: 300px;	
+	color:#B7950B ;
+	text-align:center;
+	font-family: 'Nanum Myeongjo', serif;
+	
+}
+.nombreabogada{
+	margin-top: 20%;
+}
+#divflechabajo{
+	background-color: #000;
+	margin-bottom: 10%;
+}
+
+/*_____________________________________________________________navegacion principal*/
+
+#botonmenu{
+	background-color: #000;
+	padding-left:  20%;
+}
+#imgmenu{
+	width: 100px;
+	height: 100px;
+}
+.navegacionp{
+	
+	margin-top: 3%;
+	margin-bottom: 0.5%;
+	
+}
+
+.navbar-brand{
+	margin-left:50%;
+	color: 	#000000;
+	float: none;
+}
+
+.nombresMenu{
+color:#7D6608;
+text-align: left;
+font-family: 'Great Vibes', cursiva;
+}
+
+#botonMenu{
+	margin-left: 1%;
+	display: none;
+}
+@media only screen and (max-width: 963px) {
+ .navegacionp{
+        
+        display:none;
+}
+}
+
+@media only screen and (max-width: 963px) {
+ #botonMenu{
+        
+        display: block;
+}
+}
+
+@media screen and (max-device-width : 963px) {
+
+       .navegacionp{
+	        display:none;
+	        }
+
+}
+@media screen and (max-device-width : 963px) {
+
+#botonMenu{
+        
+        display: block;
+}
+
+}
+
+.dropdown-menu{
+	background: #000;
+}
+.dropdown-item{
+	color:#9A7D0A;
+}
+
+
+
+/*__________________________________________________servivio*/
+
+p{
+	text-align: justify;
+}
+#serviciostitulo{
+		
+	text-align: center;
+	color:#34495E;
+	font-family: 'Nanum Myeongjo', serif;    
+    text-shadow: 4px 4px 4px #000;
+}
+
+.centrartxservicios{
+	text-align: center;
+	color: #000;
+}
+
+
+
+.columnasServicios{
+	background-color:#D7DBDD  ;
+	margin-bottom: 1px;
+	border: 1px solid #000;
+}
+
+.fotoServicios{
+	width:40%;
+	height: 100px;
+	margin-top: 1%;
+}
+
+
+
+/*____________________________________________________________________clientes*/
+
+#clientes{
+	background-color:#D7DBDD  ;
+}
+
+.fotoClientes{
+	width:40%;
+	height:100px;
+	margin-top: 10%;
+	border-radius: 10%;
+	
+}
+#clientestitulo{
+	margin-bottom:5%;	
+	text-align: center;
+	color:#34495E;	
+	font-family: 'Nanum Myeongjo', serif;    
+    text-shadow: 4px 4px 4px #000;
+}
+/*____________________________________________________________________contactos */
+
+.columnasContactos{
+	border: 12px solid #D7DBDD;
+}
+#divapicontac{
+	margin-top: 1%;	
+	margin-bottom: 1%;
+
+}
+#contactostitulo{	
+	text-align: center;
+	margin-bottom: 5%;	
+	color:#34495E;
+	font-family: 'Nanum Myeongjo', serif;    
+    text-shadow: 4px 4px 4px #000;
+	
+
+}
+
+
+
+.redesSocialesc {
+	width: 30%;
+}
+
+#containerRedesc{
+	margin-top: 10%;
+}
+
+.textocontactos{
+	text-align: center;
+	color:#000;
+	font-family: 'Nanum Myeongjo', serif;    
+    text-shadow: 4px 4px 4px #000;
+}
+
+/*____________________________________________________________________Nosotros */
+
+.divNosotros{
+	background-color:#D7DBDD;
+	margin-top:1%;
+	margin-bottom: 3px;
+	
+}
+#tituloNosotros{
+	text-align: center;
+	margin-bottom: 5%;		
+	color:#34495E;
+	font-family: 'Nanum Myeongjo', serif;    
+    text-shadow: 4px 4px 4px #000;
+	
+}
+
+
+.texNosotros{
+	text-align: justify;
+	font-family: 'Nanum Myeongjo', serif;    
+}
+/*_________________________________________________________________________Pagos*/
+
+#containerPagos{
+	background-color:#D7DBDD  ;
+	
+}
+#tituloPagos{
+	text-align: center;
+	margin-bottom: 6%;	
+	color:#34495E;
+	font-family: 'Nanum Myeongjo', serif;    
+    text-shadow: 4px 4px 4px #000;
+	
+}
+
+.texPagos{
+	text-align: justify;
+	color:#145A32 ;
+}
+
+
+/*____________________________________________________________________footer*/
+footer{
+	background-color: #000;
+	height: 400px;
+	width: 100%;
+	padding-top:8%;
+
+	
+}
+
+.textofooter{
+	color:#B7950B;
+	text-align: center;
+}
+
+/* Mensage de facebook_____________________________________________*/
+.chat_container{
+	margin:0;
+	width:auto;
+	max-width:300px;
+	position:fixed;
+	bottom:0px;
+	right:2%;
+	z-index:999;
+
+}
+.chat_boton{
+	width: 100%;		
+	cursor:pointer;
+	user-select: none;
+	padding:4px 0;
+}
+
+.iframe_mssfk{
+margin:0;
+padding:0;
+display: none;
+}
+h2{
+	color:#0B10B7;
+}
+
+#img_mss{
+width:40%;
+hyphens:;
+}
+
+.img_wsp{
+	width:40%;
+	hyphens: ;
+}
